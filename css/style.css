@@ -1,0 +1,339 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.clr{
+    clear: both;
+}
+
+body{
+    font-family: 'Alegreya', serif;
+}
+
+a{ 
+    text-decoration: none
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+.home{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-color: brown;
+    height: 100vh;
+    padding-top: 20px;
+    background-size: 100% 100%;
+}
+
+.menu_item,.home_content{
+    color:#fff;
+}
+
+.home_content h1{
+    font-family: 'Alegreya', serif;
+    margin: 20px 0px 30px 0px;
+    font-size: 76px;
+    font-weight:400;
+}
+
+.home_content p{
+    font-size: 20px;
+    font-weight:blod;
+}
+
+.home_desc{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 20px;
+}
+.logo,.menu_item{
+    width:49%;
+    display: inline-block;
+}
+
+.logo img{
+    width: 20%;
+}
+
+.home_menu ul,li{
+    display: inline-block;
+    margin-right: 40px; 
+}
+
+.home_menu a{
+    color: #fff;
+}
+
+.home_content{
+    text-align: center;
+    padding-top: 180px;
+}
+
+.btn{
+    background-color: transparent;
+    padding: 18px;
+    border-radius: 4px;
+    color: #fff;
+    margin: 10px 5px;
+    font-weight: bold;
+    font-family: 'Alegreya', serif;
+}
+.not_colored{
+    border: solid 1px #fff;
+}
+.colored{
+    border: none;
+    background-color: #8e7754;
+}
+
+/*who are content section*/
+
+.who_image{
+    width:45%;
+    display: inline-block;
+    margin-top: 10%;
+}
+
+.who_content{
+    width:40%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10%;
+    margin-top: 10%;
+    
+}
+.who_title{
+    margin: 8% 0%;
+}
+
+.who_content p{
+    margin-bottom: 5%;
+    line-height: 30px;
+    color: #686868;
+}
+
+.who_sub_content span{
+    vertical-align: text-bottom;
+    margin-left: 10px;
+    color: #686868;
+}
+
+.who_sub_content{
+    line-height: 50px;
+}
+.who_sub_content img{
+    width: 5%;
+    border: solid 1px silver ;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/*location section*/
+.location_container{
+    background-color: #f8f8f8;
+}
+
+
+.location_image{
+    width:45%;
+    display: inline-block;
+    margin-top: 10%;
+}
+
+.location_content{
+    width:40%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+.location_content p{
+   line-height: 30px;
+   margin-bottom: 8%;
+   color: #686868;
+}
+
+
+/*Our Baking content section*/
+
+.banking_item{
+    width: 30%;
+    margin-right: 3%;
+    float: left;
+
+}
+.banking_title{
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 5%;
+}
+
+.banking_title h2{
+    margin-bottom: 2%;
+}
+
+.banking_title p{
+    color: #686868;
+}
+
+.banking_item{
+    text-align: center;
+}
+
+.banking_item h4{
+    margin: 5% 0%;
+}  
+.banking_item p{
+    line-height: 30px;
+    color: #686868;
+}  
+
+.banking_item img{
+    width: 100%;
+}
+
+/*contact content section*/
+
+.Contact_container{
+    background-color: #f8f8f8;
+}
+
+
+.contact_map{
+    width:45%;
+    display: inline-block;
+    margin: 10% 0%;
+}
+
+.contact_content{
+    width:40%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+.Contact_sub_content{
+    line-height: 50px;
+}
+
+.contact_title{
+    margin-bottom: 3%;
+}
+
+.Contact_content p{
+    margin-bottom: 3%;
+    line-height: 30px;
+    color: #686868;
+}
+
+.Contact_sub_content img{
+    width: 6%;
+    border: solid 1px silver ;
+    background-color: #8e7754;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.Contact_sub_content span{
+    vertical-align: text-bottom;
+    margin-left: 5px;
+    color: #686868;
+}
+
+/*links content section*/
+
+.links_container{
+    background-color: #403d38;
+    color: #fff;
+}
+
+.about_us{
+    width: 25%;
+    float: left;
+    padding-top: 70px;
+    margin-bottom: 8%;
+    
+}
+.about_us p{
+    margin: 8% 0%;
+    color: #969696;
+    line-height: 30px;
+}
+
+.footer_menu_items{
+    width: 72%;
+    float: right;
+    padding-top: 70px;
+    
+}
+
+.footer_menu_item{
+    width: 30%;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 10%;
+}
+
+.link_menu_item{
+    color: #969696;
+} 
+
+.link_menu_item_img{
+    background-image: url(../images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer_menu_item li {
+   display: contents;
+}
+
+.footer_menu_item hr{
+   margin: 5% 0%;
+   opacity: 0.1;
+}
+
+.footer_menu_item h4{
+ margin-bottom: 8%;
+}
+.item span{
+    margin-right: 5px;
+}
+
+.item hr{
+    color: #969696;
+    font-size: 1px;
+}
+
+.item img{
+    width: 10%;
+    border: none ;
+    vertical-align: middle;
+}
+
+/*footer content section*/
+
+.footer_container{
+    background-color: #353330;
+}
+.copyright{
+    text-align: center;
+    padding-top: 70px;
+}
+.copyright h5{
+    margin: 3% 0%;
+    color: #686868;
+}
+
+.footer_sub_content img{
+    width: 3%;
+    background-color: #484540;
+    border-radius: 50%;
+    padding: 1px;
+    margin-bottom: 5%;
+}
